@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 실제로 보이는 화면 -->
+    <div class="slider">
+        <!-- 캐러셀영역 -->
+        <div class="slides">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" checked="checked">
+            <div id="slide1">
+            <li>FirstPage</li>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true">
+            <div id="slide2">
+            <li>SecondPage</li>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true">
+            <div id="slide3">
+            <li>ThirdPage</li>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true">
+            <div id="slide4">
+            <li>FirstPage</li>
+            </div>
+            <label for="carousel-4" class="carousel-control prev control-1">prev</label>
+            <label for="carousel-2" class="carousel-control next control-1">next</label>
+            <label for="carousel-1" class="carousel-control prev control-2">prev</label>
+            <label for="carousel-3" class="carousel-control next control-2">next</label>
+            <label for="carousel-2" class="carousel-control prev control-3">prev</label>
+            <label for="carousel-4" class="carousel-control next control-3">next</label>
+            <label for="carousel-3" class="carousel-control prev control-4">prev</label>
+            <label for="carousel-1" class="carousel-control next control-4">next</label>
+        </div>
+    </div>
+</body>
+</html>
